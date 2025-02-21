@@ -53,6 +53,6 @@ if datos_proyectos:
         print("Título:", proyecto["titulo"])
         print("Enlace:", proyecto["enlace"])
         print("Descripción:", proyecto["descripcion"])
-        print("-" * 20)
+        print("-" * 30)
 else:
     print("No se pudieron obtener los datos de los proyectos.")
