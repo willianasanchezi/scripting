@@ -13,4 +13,4 @@ for url in urls:
         print(f"Datos de {url}:")
         print(f"  Título: {datos['titulo']}")
         print(f"  Párrafos: {datos['parrafos']}")
-    print("-" * 20)
+    print("-" * 80)
