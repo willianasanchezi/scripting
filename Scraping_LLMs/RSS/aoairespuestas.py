@@ -3,7 +3,7 @@ import requests
 import json
 
 from dotenv import load_dotenv
-load_dotenv('.env')
+load_dotenv('../env/.env')
 
 def preguntas(pregunta):
     endpoint = os.getenv("endpoint")

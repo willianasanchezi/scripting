@@ -1,10 +1,10 @@
 Scraping_LLMs/venv/
+Scraping_LLMs/env/
 Scraping_LLMs/Basico_Modulo/__pycache__/
 Scraping_LLMs/RSS_parser/__pycache__/
 Scraping_LLMs/RSS/__pycache__/
 Scraping_LLMs/__pycache__
 Scraping_LLMs/Selenium/
-Scraping_LLMs/env/
 Scraping_LLMs/pages_scraping.txt
 Scraping_LLMs/RSS/.env
 Scraping_LLMs/RSS/resultado_pruebas/
