@@ -1,0 +1,6 @@
+python-dotenv
+pandas
+pyarrow
+mysql-connector-python
+tqdm
+jupyterlab

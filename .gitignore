@@ -13,3 +13,12 @@ Scraping_LLMs/RSS/resultado.docx
 Scraping_LLMs/RSS_parser/.env
 Scraping_LLMs/RSS_parser/resultado_pruebas/
 Scraping_LLMs/RSS_parser/resultado.docx
+CopyParquetToMysql/.ipynb_checkpoints/
+CopyParquetToMysql/venv/
+CopyParquetToMysql/.env
+CopyParquetToMysql/createTable.sql
+ConsultaSQL_LLMs/.ipynb_checkpoints/
+ConsultaSQL_LLMs/venv/
+ConsultaSQL_LLMs/.env
+ConsultaSQL_LLMs/scheme.json
+CrearPDF_js/node_modules/
