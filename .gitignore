@@ -22,3 +22,9 @@ ConsultaSQL_LLMs/venv/
 ConsultaSQL_LLMs/.env
 ConsultaSQL_LLMs/scheme.json
 CrearPDF_js/node_modules/
+ConsultaSQL_API/venv/
+ConsultaSQL_API/API/__pycache__/
+Azure/BlobStorage/venv/
+Azure/Fuctions/
+Gmail/Gmail_Read/venv/
+GoogleSearch/venv/

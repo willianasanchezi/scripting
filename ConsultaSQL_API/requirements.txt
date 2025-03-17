@@ -1,0 +1,11 @@
+fastapi
+uvicorn 
+pymysql
+sqlalchemy
+requests
+python-dotenv
+pandas
+pyarrow
+mysql-connector-python
+tqdm
+jupyterlab
