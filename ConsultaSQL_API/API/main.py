@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends  
 from sqlalchemy.orm import Session  
 from typing import List, Optional  
-from database import SessionLocal, get_db  
+from database import get_db  
 import models  
   
 app = FastAPI()  
@@ -29,7 +29,7 @@ def read_data(
     db: Session = Depends(get_db)  
 ):  
     query = db.query(models.Data)  
-      
+  
     if UNIDAD_NEGOCIO:  
         query = query.filter(models.Data.UNIDAD_NEGOCIO == UNIDAD_NEGOCIO)  
     if REGIONAL:  
@@ -62,7 +62,7 @@ def read_data(
         query = query.filter(models.Data.TIPO_EMPRESA == TIPO_EMPRESA)  
     if FABRICANTE_COEM:  
         query = query.filter(models.Data.FABRICANTE_COEM == FABRICANTE_COEM)  
-      
+  
     items = query.offset(skip).limit(limit).all()  
     return items  
   

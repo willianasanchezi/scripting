@@ -20,6 +20,9 @@ CopyParquetToMysql/createTable.sql
 ConsultaSQL_LLMs/.ipynb_checkpoints/
 ConsultaSQL_LLMs/venv/
 ConsultaSQL_LLMs/.env
+ConsultaSQL_API/API/.env
+ConsultaSQL_API/API/__pycache__/
+ConsultaSQL_API/venv/
 ConsultaSQL_LLMs/scheme.json
 CrearPDF_js/node_modules/
 ConsultaSQL_API/venv/

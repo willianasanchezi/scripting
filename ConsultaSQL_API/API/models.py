@@ -1,11 +1,11 @@
-from sqlalchemy import Column, String, DateTime, Integer  # Asegúrate de importar Integer  
+from sqlalchemy import Column, String, DateTime, Integer  
 from database import Base  
 from pydantic import BaseModel  
 from typing import Optional  
+from datetime import datetime  
   
 class Data(Base):  
     __tablename__ = "data"  
-  
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)  
     UNIDAD_NEGOCIO = Column(String(255), index=True)  
     REGIONAL = Column(String(255), index=True)  
@@ -35,9 +35,9 @@ class DataRead(BaseModel):
     PRODUCTO: Optional[str]  
     CANTIDAD: Optional[str]  
     TOTAL_ANTES_IVA: Optional[str]  
-    FECHA_CIERRE_ESTIMADO: Optional[str]  
+    FECHA_CIERRE_ESTIMADO: Optional[datetime]  
     TIPO_ORIGEN: Optional[str]  
-    FECHA_CREACION: Optional[str]  
+    FECHA_CREACION: Optional[datetime]  
     ESTADO: Optional[str]  
     INDUSTRIA: Optional[str]  
     TIPO_EMPRESA: Optional[str]  
